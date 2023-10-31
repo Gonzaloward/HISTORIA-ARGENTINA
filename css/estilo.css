@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav para todos*/
+
+nav{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #6495ED;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1
+}
+
+nav img{
+    padding: 10px;   
+}
+
+/* index */
+
+.menu{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 0.7rem;
+}
+
+.menu a:hover{
+    background-color:black;
+    color: aqua;
+    border-radius: 20px;
+}
+
+.main-index{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    height: 100vh;
+    padding: 5%; 
+}
+
+.main-bac{
+    background-color: black;
+}
+
+/* contacto */
+
+.contacto{
+    height: 100%;
+    background-color: lightblue;
+    font-size: xx-large;
+}
+
+form{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: white;
+    margin: 0 auto;
+    width: 400px;    
+    padding: 15px;
+    border-radius: 5px;   
+}
+
+form input{
+    display: block;
+    border-radius: 3px;
+}
+
+/* galeria */
+
+.body-gal{
+    background-color:aqua;
+}
+
+.gal{
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    margin: 1rem;
+}
+
+.card-body{
+    text-align: center;
+
+}
+
+.card-text{
+    margin: 0;
+    padding: 0;
+}
+
+/* pag 3 y 4*/
+
+h1{
+    margin: 60px;
+    text-align: center;
+}
+
+p{
+    margin: 100px;
+    text-align: justify;
+    
+}
+
+.main-pag{
+    background-color: lightblue;
+    font-family: helvetica;
+}
+
+/* FOOTER */
+
+.dawn{
+    display: flex;
+    align-items: center;
+}
