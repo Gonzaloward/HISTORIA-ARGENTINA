@@ -82,6 +82,8 @@ header{
     height: 100vh;
     padding: 0;
     margin: 0;
+    position: relative;
+    padding-bottom: 3em;
     
 }
 
@@ -89,21 +91,23 @@ header{
 
 .body-gal{
     background-color:aqua;
-}
-
-.gal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .card{
+    height: 100%;
+    .gal{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        .card{
         margin: 1rem;
-    }
-    .card-body{
+        }
+        .card-body{
         text-align: center;
-    }
-    .card-text{
+        }
+        .card-text{
         margin: 0;
         padding: 0;
+        }
     }
 }
 
@@ -155,10 +159,6 @@ form{
     padding: 20px;
     height: 60px;
     background: linear-gradient(#0101b3, navy, #0101b3);
-    .dawn{
-
-                
-    }
 }
 
 
