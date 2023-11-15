@@ -9,51 +9,48 @@
     <title> HISTORIA ARGENTINA </title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="../index.html"><img src="../pic/logo1.jpg" alt="logo"></a>
-            </div>
-            <div>
-            <ul class="menu">
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./GALERIA.html">GALERIA</a></li>
-                <li><a href="./CONTACTO.html">CONTACTO</a></li>
-            </ul>
-        </nav>
-            </div>
-    </header>
-    <main class="contacto"> 
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="../index.html"><img src="../pic/logo1.jpg" alt="logo" /></a>
+      </div>
+      <div>
+        <ul class="menu">
+          <li class="h"><a href="../index.html">HOME</a></li>
+          <li class="g"><a href="../PAG/galeria.html">GALERIA</a></li>
+          <li class="c"><a href="../PAG/contacto.html">CONTACTO</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    <main>
         <h1> Formulario de contacto</h1>
-        <p>
-            Si te intereso nuestra pagina y queres recibir notificaciones cuando publiquemos nuevo contenido completa el siguente formulario y listo!!! 
-        </p>
+        <div class="contacto">
+            <form class="form">
+                <div class="input-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="nombre" required><br><br>
+    
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="apellido" required><br><br>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email" required><br><br>
+        
+                    <label for="acepto_terminos">Acepto los términos y condiciones:</label>
+                    <input type="checkbox" id="acepto_terminos" name="acepto_terminos"><br><br>
+        
+                    <label for="comentarios">Comentarios:</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="5" cols="30" placeholder="mensaje"
+                    ></textarea><br><br>
+        
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div> 
+    </main>
+    <footer class="footer">
 
-        <form >
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br><br>
-    
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required><br><br>
-    
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-    
-            <label for="acepto_terminos">Acepto los términos y condiciones:</label>
-            <input type="checkbox" id="acepto_terminos" name="acepto_terminos"><br><br>
-    
-            <label for="comentarios">Comentarios:</label><br>
-            <textarea id="comentarios" name="comentarios" rows="3" cols="24"></textarea><br><br>
-    
-            <input type="submit" value="Enviar">
-        </form>
-        </div>
-        </main>
-        <div class="dawn">
-            <p> GONZALO WARD
-                LINK:
-                <a href="//github.com/Gonzaloward?tab=repositories"> //github.com/Gonzaloward?tab=repositories </a>
-            </p>
-        </div>
+    </footer>
 </body>
 </html>        
