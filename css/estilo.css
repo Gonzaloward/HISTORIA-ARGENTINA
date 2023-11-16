@@ -51,19 +51,25 @@ header {
         border-radius: 20px; }
 
 /* index */
+.body-index{
+  min-height: 100vh;
+}
 .main-index {
   background-color: black;
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  height: 100vh;
   padding: 0; }
   .main-index .main-bac {
     background-color: black; }
+#carru{
+  max-width: 800px;
+  width: 400%;
+}
 
 /* galeria */
 .body-gal {
-  height: 100vh;
+  min-height: 100vh;
   background-color: aqua; }
 
 .gal {
@@ -104,12 +110,12 @@ h1 {
 }
 .form{
   background-color: aqua;
-  padding: 50px 55px;
+  padding: 20px;
   border-radius: 20px;
   text-align: center;
   width: 50%;
 }
-.imput-group{
+.input-group{
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -118,7 +124,8 @@ label{
   color: black;
   font-size: 15px;
   font-weight: 600;
-  margin-bottom: 15px; border-bottom: 15px;
+  padding: 10px 0px;
+  border-bottom: 15px;
 }
 input, textarea{
   padding: 17px 25 px;
@@ -131,8 +138,20 @@ input, textarea{
 
 /* FOOTER */
 .footer {
-  background-color: black;
+  height: 100px;
+  background-color: gray;
   display: flex;
-  justify-content: space-evenly;
-  position: ;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+.iconos{
+  display: flex;
+}
+.iconos i{
+  margin: 4px;
+} 
+ul li{
+  list-style: none;
 }
