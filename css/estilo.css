@@ -57,7 +57,7 @@ header {
   background-position: center;
   align-items: center;
   height: 100vh;
-  padding: 5%; }
+  padding: 0; }
   .main-index .main-bac {
     background-color: black; }
 
@@ -78,7 +78,7 @@ header {
     margin: 0;
     padding: 0; }
 
-/* pag 3 y 4*/
+/* pag 3 , 4 y 5*/
 h1 {
   margin: 60px;
   text-align: center; }
@@ -87,30 +87,52 @@ h1 {
   background-color: lightblue;
   font-family: helvetica; }
   .main-pag p {
-    margin: 100px;
+    padding: 20px;
+    border-radius: 2%;
+    background-color: darkcyan;
+    margin: 23px;
     text-align: justify; }
 
 /* contacto */
-.contacto {
-  height: 100%;
-  background-color: lightblue;
-  font-size: xx-large; }
 
-form {
-  /* display: flex;
-    align-items: center;
-    justify-content: center; */
-  background-color: white;
-  margin: 0 auto;
-  width: 84%;
-  padding: 39px;
-  border-radius: 30px; }
-  form form input {
-    display: block;
-    border-radius: 3px; }
+.contacto {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form{
+  background-color: aqua;
+  padding: 50px 55px;
+  border-radius: 20px;
+  text-align: center;
+  width: 50%;
+}
+.imput-group{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+label{
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px; border-bottom: 15px;
+}
+input, textarea{
+  padding: 17px 25 px;
+  border-radius: 25%;
+  margin-bottom: 20px;
+  background-color: #edfff0;
+  border: 2px solid #f0faf1;
+  outline: none;
+}
 
 /* FOOTER */
 .footer {
-  padding: 20px;
-  height: 60px;
-  background: linear-gradient(#0101b3, navy, #0101b3); }
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
