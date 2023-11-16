@@ -63,6 +63,7 @@ header {
 
 /* galeria */
 .body-gal {
+  height: 100vh;
   background-color: aqua; }
 
 .gal {
@@ -101,9 +102,9 @@ form {
     justify-content: center; */
   background-color: white;
   margin: 0 auto;
-  width: 400px;
-  padding: 15px;
-  border-radius: 5px; }
+  width: 84%;
+  padding: 39px;
+  border-radius: 30px; }
   form form input {
     display: block;
     border-radius: 3px; }

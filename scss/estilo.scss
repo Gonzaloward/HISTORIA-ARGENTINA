@@ -120,12 +120,12 @@ h1{
 }
 
 .main-pag{
+    height: 100vh;
     background-color: lightblue;
     font-family: helvetica;
     p{
         margin: 100px;
         text-align: justify;
-        
     }
 }
 
@@ -135,22 +135,21 @@ h1{
     height: 100%;
     background-color: lightblue;
     font-size: xx-large;
-}
+    .form{
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        background-color: white;
+        margin: 0 auto;
+        width: 84%;    
+        padding: 39px;
+        border-radius: 5px;   
+        form input{
+            display: block;
+            border-radius: 3px;
+        }
 
-form{
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    background-color: white;
-    margin: 0 auto;
-    width: 600px;    
-    padding: 15px;
-    border-radius: 5px;   
-    form input{
-        display: block;
-        border-radius: 3px;
     }
-
 }
 
 /* FOOTER */
