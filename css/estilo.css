@@ -1,3 +1,8 @@
+:root{
+  --color-pri: lightblue;
+  --color-sec: #008b8b;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -90,12 +95,12 @@ h1 {
   text-align: center; }
 
 .main-pag {
-  background-color: lightblue;
+  background-color: var(--color-pri);
   font-family: helvetica; }
   .main-pag p {
     padding: 20px;
     border-radius: 2%;
-    background-color: darkcyan;
+    background-color:var(--color-sec);
     margin: 23px;
     text-align: justify; }
 
@@ -110,6 +115,7 @@ h1 {
 }
 .form{
   background-color: aqua;
+  display: flex;
   padding: 20px;
   border-radius: 20px;
   text-align: center;

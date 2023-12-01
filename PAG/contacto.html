@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../css/estilo.css">
+    <meta name="description" content="Breves relatos de la Historia Argentina desde 1916 en adelante">
+    <meta name="keywords" content="Historia Argentina, Yrigoyen, Peron, Videla, facto, peronismo, dictadura, militar, radical, contacto">
     <script src="https://kit.fontawesome.com/1ce0b082cd.js" crossorigin="anonymous"></script>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -29,21 +31,29 @@
         <h1> Formulario de contacto</h1>
         <div class="contacto">
             <form class="form">
-                <div class="input-group">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="..." required>
+              <div class="row">
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" placeholder="..." required>
+                </div>
     
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" id="apellido" name="apellido" placeholder="..." required>
+                <div class="col-md-6">
+                    <label for="apellido" class="form-label">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" class="form-control" placeholder="..." required>
+                </div>
     
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="..." required>
-        
-                    <label for="comentarios">Comentarios:</label>
-                    <textarea id="comentarios" name="comentarios" rows="5" cols="30" placeholder="mensaje"
-                    ></textarea>
-        
-                    <button type="button" class="btn btn-outline-success">ENVIAR</button></a>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="..." required>
+                </div>
+    
+                <div class="col-md-6">
+                    <label for="comentarios" class="form-label">Comentarios:</label>
+                    <textarea id="comentarios" name="comentarios" class="form-control" rows="5" placeholder="mensaje"></textarea>
+                </div>
+    
+                <div class="col-12 mt-3">
+                    <button type="button" class="btn btn-outline-success">ENVIAR</button>
                 </div>
             </form>
         </div> 
